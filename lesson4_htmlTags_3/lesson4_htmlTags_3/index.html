@@ -23,16 +23,39 @@
       <div>
         <p>Пол</p>
         <div>
-          <input checked type="radio" name="gender" value="male" />Мужской
+          <input
+            checked
+            type="radio"
+            name="gender"
+            value="male"
+            tabindex="4"
+          />Мужской
         </div>
-        <div><input type="radio" name="gender" value="female" />Женский</div>
+        <div>
+          <input
+            type="radio"
+            name="gender"
+            value="female"
+            tabindex="5"
+          />Женский
+        </div>
       </div>
       <div>
         <p>Имущество</p>
-        <div><input type="checkbox" name="bike" value="yes" />Велик</div>
-        <div><input type="checkbox" name="car" value="yes" />Машина</div>
         <div>
-          <input disabled type="checkbox" name="house" value="yes" />Дом
+          <input type="checkbox" name="bike" value="yes" tabindex="6" />Велик
+        </div>
+        <div>
+          <input type="checkbox" name="car" value="yes" tabindex="6" />Машина
+        </div>
+        <div>
+          <input
+            disabled
+            type="checkbox"
+            name="house"
+            value="yes"
+            tabindex="6"
+          />Дом
         </div>
       </div>
       <div>
@@ -41,13 +64,14 @@
           <textarea
             placeholder="Введите сюда дополнительную информацию"
             name="additionalInfo"
+            tabindex="7"
           ></textarea>
         </div>
       </div>
       <div>
         <p>Прикрепить фото</p>
         <div>
-          <input type="file" name="photo" />
+          <input type="file" name="photo" tabindex="8" />
         </div>
       </div>
     </form>
