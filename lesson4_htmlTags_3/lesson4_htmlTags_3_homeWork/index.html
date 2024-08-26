@@ -5,5 +5,90 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Домашнее задание №2</title>
   </head>
-  <body></body>
+  <body>
+    <form action="#">
+      <div>
+        <p>Имя</p>
+        <input type="text" name="clientName" />
+      </div>
+      <div>
+        <p>Адес доставки</p>
+        <div>
+          <input
+            type="text"
+            placeholder="Улица"
+            multiple
+            name="clientDeliveryAdress_street"
+          />
+          <input
+            type="text"
+            placeholder="Номер"
+            multiple
+            name="clientDeliveryAdress_number"
+          />
+        </div>
+      </div>
+      <div>
+        <p>Контактный телефон</p>
+        <input type="tel" name="phoneNumber" />
+      </div>
+      <div>
+        <p>Название товара</p>
+        <select name="products">
+          <option value="phone">Телефон</option>
+          <option value="laptop">Ноутбук</option>
+          <option value="tablet">Планшет</option>
+          <option value="earphone">Наушники</option>
+          <option value="smartwatch">Умные часы</option>
+        </select>
+      </div>
+      <div>
+        <p>Количество</p>
+        <div>
+          <input type="number" name="count" />
+        </div>
+      </div>
+      <div>
+        <p>Способ оплаты</p>
+        <div>
+          <div>
+            <input type="radio" name="paymentType" value="card" />Картой
+          </div>
+          <div>
+            <input type="radio" name="paymentType" value="cash" />Наличными
+          </div>
+          <div>
+            <input
+              type="radio"
+              name="paymentType"
+              value="internet"
+            />Интернет-банкинг
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <p>Дата доставки</p>
+        <div>
+          <input type="date" name="orderDate" />
+        </div>
+      </div>
+      <div>
+        <p>Комментарий к заказу</p>
+        <div><textarea name="comment"></textarea></div>
+      </div>
+      <div>
+        <p>Подписка на рассылку</p>
+        <div>
+          <input type="checkbox" name="news-yes" />Да, я хочу получать новостную
+          рассылку
+        </div>
+        <br />
+        <div>
+          <input type="submit" name="buttonOrderAccept" value="Закзазать" />
+          <input type="reset" name="buttonOrderCancel" value="Стереть" />
+        </div>
+      </div>
+    </form>
+  </body>
 </html>
