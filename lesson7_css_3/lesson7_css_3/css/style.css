@@ -90,14 +90,15 @@ h6 {
 .example-block{
     /* padding: 10%; */
     /* margin: 10px -10px; */
-    overflow: auto;
-    max-height: 200px;
     border: 2px solid black;
-
+    padding: 20px;
 }
 
 .example-string{
- 
+padding: 20px;
+display: inline-block;
+border: 2px solid black;
+width: 500px;
 }
 
 .example-image{
