@@ -88,22 +88,19 @@ h6 {
 }
 
 .example-block{
-    overflow: hidden;
-    width: 100px;
-    height: 100px;
-    border: 2px solid black;
-border-radius: 50%;
+outline: 5px solid black;
+
 
 font-size: 40px;
-margin-bottom: 10px;
+margin: 20px;
 }
 
 .example-string{
-border: 5px dashed #000;
+
 
 font-size: 40px;
 }
 
 .example-image{
-border: 5px dotted #000;
+
 }
