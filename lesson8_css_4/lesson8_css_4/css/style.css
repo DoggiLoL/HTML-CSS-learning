@@ -88,7 +88,7 @@ h6 {
 }
 
 .example-block{
-opacity: 0;
+visibility: hidden;
 
 font-size: 40px;
 }
