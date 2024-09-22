@@ -115,3 +115,11 @@ body{
     font-size: 20px;
     margin: 0 0 20px 0;
 }
+
+.list li::before{
+    content: '<<';
+}
+
+.list li::after{
+    content: '>>';
+}
