@@ -117,9 +117,15 @@ body{
 }
 
 .list li::before{
-    content: '<<';
+    content: '';
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: red;
+    display: inline-block;
+    margin-right: 10px;
 }
 
-.list li::after{
+/* .list li::after{
     content: '>>';
-}
+} */
