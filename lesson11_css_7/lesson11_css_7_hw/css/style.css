@@ -101,10 +101,13 @@ div{
 
 .task1 li{
     font-size: 20px;
-    padding-left: 30px;
-    background: url('../img/check\ icon.png') left no-repeat;
     line-height: 1.8;
     color: #273d46;
+}
+
+.task1 li::before{
+    content: url('../img/check\ icon.png');
+    margin-right: 10px;
 }
 
 .task1 ul li:nth-child(1){
@@ -124,15 +127,22 @@ div{
 
 .task2 li {
     font-size: 20px;
-    padding-left: 30px;
-    background: url('../img/check\ icon.png') left no-repeat;
     line-height: 1.8;
     color: #273d46;
 }
 
+.task2 li::before{
+content: url('../img/check\ icon.png');
+margin-right: 10px;
+}
+
 .task2 li:hover{
-background: url('../img/check\ icon2.png') left no-repeat;
 color: #d55a5a;
+}
+
+.task2 li:hover::before{
+    content: url('../img/check\ icon2.png');
+        margin-right: 10px;
 }
 
 .task3 button{
@@ -146,6 +156,12 @@ color: #d55a5a;
     background-color: #80B7B3;
     border-radius: 50px;
     box-shadow: 0px 6px 40px 0 rgba(128, 183, 179, 0.54);}
+
+.task3 button::after{
+    content: url('../img/Shape\ 2.png');
+    padding-left: 5px;
+    vertical-align: middle;
+}
 
     .task3 button:hover{
         background-color: #375755;
@@ -165,4 +181,25 @@ color: #d55a5a;
 
     .task4 input:focus{
         box-shadow: 0 0 20px 0 rgba(127, 190, 213, 0.93);
+    }
+
+    .task5{
+        width: 600px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+    }
+
+    .task5 p{
+        margin-bottom: 30px;
+    }
+
+    .task5 :nth-child(1)::first-line{
+        color: green;
+    }
+
+    .task5 :nth-child(2)::first-letter{
+        color: red;
+        font-size: 30px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: 600;
     }
