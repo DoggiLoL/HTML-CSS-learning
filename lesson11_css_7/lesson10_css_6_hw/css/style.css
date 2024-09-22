@@ -1,0 +1,168 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+*,
+*:before,
+*:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+:focus,
+:active {
+    outline: none;
+}
+
+a:focus,
+a:active {
+    outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+    display: block;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+    font-family: inherit;
+}
+
+input::-ms-clear {
+    display: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+button::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+}
+
+a,
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+}
+
+img {
+    vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: inherit;
+    font-weight: 400;
+}
+
+
+
+body{
+    padding: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(243, 242, 240);
+}
+
+div{
+    margin: 0 0 30px 0;
+}
+
+.task1 li{
+    font-size: 20px;
+    padding-left: 30px;
+    background: url('../img/check\ icon.png') left no-repeat;
+    line-height: 1.8;
+    color: #273d46;
+}
+
+.task1 ul li:nth-child(1){
+    text-decoration: line-through;
+}
+
+.task1 ul li:nth-child(2){
+    text-shadow: 0px 1px 0px rgba(66, 68, 90, 0.5);
+}
+
+.task1 ul li:nth-child(3) {
+    font-style: italic;}
+
+.task1 ul li:nth-child(4) {
+    text-transform: uppercase;
+}
+
+.task2 li {
+    font-size: 20px;
+    padding-left: 30px;
+    background: url('../img/check\ icon.png') left no-repeat;
+    line-height: 1.8;
+    color: #273d46;
+}
+
+.task2 li:hover{
+background: url('../img/check\ icon2.png') left no-repeat;
+color: #d55a5a;
+}
+
+.task3 button{
+    font-size: 14px;
+    text-transform: uppercase;
+    /* background: url('../img/Shape\ 2.png'); */
+    width: 199px;
+    height: 44px;
+    color: #fff;
+    letter-spacing: 2.8px;
+    background-color: #80B7B3;
+    border-radius: 50px;
+    box-shadow: 0px 6px 40px 0 rgba(128, 183, 179, 0.54);}
+
+    .task3 button:hover{
+        background-color: #375755;
+    }
+
+    .task3 button:active{
+        background-color: #828282;
+    }
+
+    .task4 input{
+        width: 292px;
+        height: 50px;
+        border: 1px solid #b0b0b0;
+        font-size: 20px;
+        padding: 10px;
+    }
+
+    .task4 input:focus{
+        box-shadow: 0 0 20px 0 rgba(127, 190, 213, 0.93);
+    }

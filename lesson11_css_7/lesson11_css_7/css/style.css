@@ -126,6 +126,9 @@ body{
     margin-right: 10px;
 }
 
+.list li:hover::before{
+    background-color: yellow;
+}
 /* .list li::after{
     content: '>>';
 } */
