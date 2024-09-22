@@ -101,6 +101,12 @@ body{
     color: green;
 }
 
+.text::first-letter{
+    font-size: 40px;
+    color: burlywood;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
 .list {
 
 }
