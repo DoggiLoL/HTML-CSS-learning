@@ -132,17 +132,17 @@ div{
 }
 
 .task2 li::before{
-content: url('../img/check\ icon.png');
-margin-right: 10px;
+    content: url('../img/check\ icon.png');
+    margin-right: 10px;
 }
 
 .task2 li:hover{
-color: #d55a5a;
+    color: #d55a5a;
 }
 
 .task2 li:hover::before{
     content: url('../img/check\ icon2.png');
-        margin-right: 10px;
+    margin-right: 10px;
 }
 
 .task3 button{
@@ -164,42 +164,42 @@ color: #d55a5a;
 }
 
     .task3 button:hover{
-        background-color: #375755;
-    }
+    background-color: #375755;
+}
 
     .task3 button:active{
-        background-color: #828282;
-    }
+    background-color: #828282;
+}
 
     .task4 input{
-        width: 292px;
-        height: 50px;
-        border: 1px solid #b0b0b0;
-        font-size: 20px;
-        padding: 10px;
-    }
+    width: 292px;
+    height: 50px;
+    border: 1px solid #b0b0b0;
+    font-size: 20px;
+    padding: 10px;
+}
 
     .task4 input:focus{
-        box-shadow: 0 0 20px 0 rgba(127, 190, 213, 0.93);
-    }
+    box-shadow: 0 0 20px 0 rgba(127, 190, 213, 0.93);
+}
 
     .task5{
-        width: 600px;
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 20px;
-    }
+    width: 600px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
 
     .task5 p{
-        margin-bottom: 30px;
-    }
+    margin-bottom: 30px;
+}
 
     .task5 :nth-child(1)::first-line{
-        color: green;
-    }
+    color: green;
+}
 
     .task5 :nth-child(2)::first-letter{
-        color: red;
-        font-size: 30px;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        font-weight: 600;
-    }
+    color: red;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+}
