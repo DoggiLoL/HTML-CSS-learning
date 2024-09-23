@@ -115,8 +115,14 @@ body{
 .block__2{
     background-color: #5e5373;
     color: white;
+    position: relative;
+    left: 50px;
+    top: 60px;
+    z-index: 3;
 }
 
 .block__3 {
     background-color: #18b5a4;
+    position: relative;
+    z-index: 2;
 }
